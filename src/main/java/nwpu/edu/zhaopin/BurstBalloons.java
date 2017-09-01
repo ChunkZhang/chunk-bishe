@@ -1,12 +1,20 @@
 package nwpu.edu.zhaopin;
 
+import java.io.InputStream;
+import java.util.Scanner;
+
 /**
  * Created by chunk on 2017/8/16.
  */
 public class BurstBalloons {
     public static void main(String[] args){
-        int[] nums = {2,3,4};
-        System.out.print(getMaxCoins(nums));
+        Scanner scanner = new Scanner(System.in);
+        String s = "";
+        while (scanner.hasNextLine()){
+            System.out.print("chunk:"+s);
+        }
+/*        int[] nums = {2,3,4};
+        System.out.print(getMaxCoins(nums));*/
     }
 
     public static int getMaxCoins(int[] nums){
